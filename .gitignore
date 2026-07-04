@@ -1,0 +1,43 @@
+# Build directories
+build/
+build-debug/
+build-release/
+CMakeFiles/
+cmake_install.cmake
+CMakeCache.txt
+
+# Generated files
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.app
+
+# IDE
+.vscode/
+.idea/
+*.xcodeproj/
+*.vcxproj/
+*.sln
+*.xcworkspace/
+
+# JUCE
+JUCEProjectCache.json
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# Windows
+Thumbs.db
+*.pdb
+
+# Dependencies
+ThirdParty/JUCE/
+
+# Artifacts
+*.log
+*.tmp
